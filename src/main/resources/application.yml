@@ -1,6 +1,10 @@
 spring:
   application:
     name = clonecoding
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
